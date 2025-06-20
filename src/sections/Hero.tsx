@@ -1,8 +1,8 @@
-import { Button } from "./ui";
+import { Button } from "@/components/ui";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
-    <div className="mx-auto flex max-w-7xl flex-col items-center justify-center px-4 pt-5 sm:px-6 sm:pt-10 md:px-8 md:pt-24">
+    <section className="mx-auto flex max-w-7xl flex-col items-center justify-center px-4 pt-5 sm:px-6 sm:pt-10 md:px-8 md:pt-24">
       <div className="flex flex-col items-center justify-center gap-10">
         <div className="max-w-3xl space-y-6 text-center">
           <h1 className="title text-5xl font-bold sm:text-6xl md:text-7xl">
@@ -45,8 +45,8 @@ const HeroSection = () => {
           className="object-contain"
         />
       </div>
-    </div>
+    </section>
   );
 };
 
-export default HeroSection;
+export default Hero;
