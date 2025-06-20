@@ -3,8 +3,8 @@ import { Button, SectionHead, Subtitle, Title } from "@/components/ui";
 const Hero = () => {
   return (
     <section className="mx-auto flex max-w-7xl flex-col items-center justify-center px-4 pt-5 sm:px-6 sm:pt-10 md:px-8 md:pt-24">
-      <div className="flex flex-col items-center justify-center gap-10">
-        <SectionHead center>
+      <div className="relative z-10 flex flex-col items-center justify-center gap-10">
+        <SectionHead center className="z-10">
           <Title>Unleash the power of intuitive finance</Title>
           <Subtitle>
             Say goodbye to the outdated financial tools. Every small business
@@ -12,7 +12,7 @@ const Hero = () => {
             like a pro. Simple. Intuitive. And never boring.
           </Subtitle>
         </SectionHead>
-        <div className="space-y-8">
+        <div className="z-10 space-y-8">
           <Button>Join the waitlist</Button>
           <a
             href="#"
@@ -35,6 +35,11 @@ const Hero = () => {
             </svg>
           </a>
         </div>
+        <img
+          src="/images/stars.png"
+          alt="Stars"
+          className="absolute top-1/4 z-0 object-contain"
+        />
       </div>
       <div className="animated-wrapper my-10 !w-full !rounded-2xl !p-[0.5px] md:my-24">
         <img
