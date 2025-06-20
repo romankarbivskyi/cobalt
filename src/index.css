@@ -1,1 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+  --color-dark: #09090b;
+  --color-regular: #a1a1aa;
+  --color-outline: #212123;
+  --color-accent: #22d3ee;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotate-border {
+  to {
+    --angle: 360deg;
+  }
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.title {
+  @apply bg-gradient-to-br from-[#FFFFFF] to-[#71717A] bg-clip-text text-transparent;
+}
+
+.animated-wrapper {
+  @apply relative w-max rounded-lg p-px;
+  background: conic-gradient(
+    from var(--angle),
+    var(--color-outline) 60%,
+    var(--color-accent),
+    var(--color-outline)
+  );
+  animation: rotate-border 5s linear infinite;
+}
