@@ -1,8 +1,10 @@
 import { cn } from "@/lib/utils";
 
-type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {};
-
-const Button = ({ className, children, ...props }: ButtonProps) => {
+const Button = ({
+  className,
+  children,
+  ...props
+}: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
   return (
     <div className="animated-wrapper !rounded-full">
       <button
