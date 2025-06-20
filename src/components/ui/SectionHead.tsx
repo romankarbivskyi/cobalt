@@ -11,7 +11,7 @@ interface SectionHeadProps {
 const variants = {
   default: "max-w-3xl flex-col gap-6",
   half: "max-w-1/2 flex-col gap-4.5",
-  wide: "max-w-none  gap-16",
+  wide: "max-w-none gap-5 sm:gap-10 md:gap-16 flex-col md:flex-row",
 };
 
 const SectionHead = ({

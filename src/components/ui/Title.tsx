@@ -17,7 +17,7 @@ const Title = ({ level = "h1", className, children }: TitleProps) => {
   const Level = level;
 
   return (
-    <Level className={cn(className, levels[level], "title font-bold")}>
+    <Level className={cn(className, levels[level], "title flex-1 font-bold")}>
       {children}
     </Level>
   );

@@ -14,7 +14,9 @@ const sizes = {
 
 const Subtitle = ({ size = "xl", className, children }: SubtitleProps) => {
   return (
-    <p className={cn(className, sizes[size], "text-regular")}>{children}</p>
+    <p className={cn(className, sizes[size], "text-regular flex-1")}>
+      {children}
+    </p>
   );
 };
 
