@@ -10,8 +10,8 @@ interface SectionHeadProps {
 
 const variants = {
   default: "max-w-3xl flex-col gap-6",
-  half: "max-w-1/2 flex-col gap-4.5",
-  wide: "max-w-none gap-5 sm:gap-10 md:gap-16 flex-col md:flex-row",
+  half: "items-center lg:items-start md:text-start text-center mx-auto md:mx-0 w-full md:max-w-2/3 lg:max-w-1/2 flex-col gap-5",
+  wide: "items-center lg:items-start lg:text-start text-center mx-auto lg:mx-0 w-full justify-between max-w-none gap-5 md:gap-10 lg:gap-16 flex-col lg:flex-row",
 };
 
 const SectionHead = ({

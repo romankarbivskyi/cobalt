@@ -8,16 +8,16 @@ interface TitleProps {
 }
 
 const levels = {
-  h1: "text-5xl sm:text-6xl md:text-7xl",
-  h2: "text-3xl sm:text-4xl md:text-5xl",
-  h3: "text-2xl sm:text-3xl md:text-[32px]",
+  h1: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight",
+  h2: "text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight",
+  h3: "text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight",
 };
 
 const Title = ({ level = "h1", className, children }: TitleProps) => {
   const Level = level;
 
   return (
-    <Level className={cn(className, levels[level], "title flex-1 font-bold")}>
+    <Level className={cn("title flex-1 font-bold", levels[level], className)}>
       {children}
     </Level>
   );

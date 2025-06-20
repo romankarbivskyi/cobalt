@@ -2,7 +2,7 @@ import { SectionHead, Title, Subtitle } from "@/components/ui";
 
 const About = () => {
   return (
-    <section className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 md:px-8">
+    <section className="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 sm:py-10 md:px-8 md:py-24">
       <SectionHead variant="wide">
         <Title level="h2">Who said finance has to be boring?</Title>
         <Subtitle>
