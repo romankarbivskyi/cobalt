@@ -7,7 +7,7 @@ const App = () => {
         <Header />
         <Hero />
       </div>
-      <div className="absolute top-0 left-1/2 h-1/2 w-full max-w-7xl -translate-1/2 rounded-full bg-radial from-[#5EB0EF]/50 via-[#5EB0EF]/10 to-transparent blur-3xl"></div>
+      <div className="absolute top-0 left-1/2 h-[80vw] w-[80vw] max-w-7xl -translate-1/2 rounded-full bg-radial from-[#5EB0EF]/50 via-[#5EB0EF]/10 to-transparent blur-3xl"></div>
       <About />
       <Features />
       <AiFeatures />
