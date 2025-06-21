@@ -7,7 +7,7 @@ const Header = () => {
 
       <div className="flex items-center gap-4 sm:gap-6">
         <nav>
-          <a href="#" className="text-sm">
+          <a href="#" className="text-link text-sm">
             Blog
           </a>
         </nav>
