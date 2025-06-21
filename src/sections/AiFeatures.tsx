@@ -16,7 +16,7 @@ const features = [
   },
 ];
 
-const Features = () => {
+const AiFeatures = () => {
   return (
     <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24">
       <div className="space-y-16">
@@ -39,4 +39,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default AiFeatures;
