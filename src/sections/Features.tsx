@@ -38,7 +38,7 @@ const Features = () => {
   return (
     <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 md:px-8 md:py-24">
       <div className="space-y-16">
-        <SectionHead variant="half">
+        <SectionHead center variant="half">
           <Title level="h2">Everything you need. Nothing you don't</Title>
           <Subtitle size="lg">
             Financial management and visibility in one place. Experience a{" "}
