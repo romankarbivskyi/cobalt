@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
-    <footer className="border-outline mb:px-8 relative mx-auto mb-5 flex max-w-7xl flex-col items-center justify-center gap-10 border-t px-4 pt-5 sm:my-10 sm:px-6 md:mb-24 md:items-start">
+    <footer className="border-outline relative mx-auto mb-5 flex max-w-7xl flex-col items-center justify-center gap-10 border-t px-4 pt-5 sm:my-10 sm:px-6 md:mb-24 md:items-start md:px-8">
       <div className="flex w-full flex-col items-center justify-between gap-10 md:flex-row">
         <div className="text-regular flex flex-col items-center gap-4 text-xs leading-5 sm:flex-row">
           <h4>&copy; 2023 Cobalt Financial Technologies Inc.</h4>
           <ul className="flex items-center gap-4">
             <li>
-              <a href="#">Privary Policy</a>
+              <a href="#">Privacy Policy</a>
             </li>
             <li>
               <a href="#">Terms of Use</a>
