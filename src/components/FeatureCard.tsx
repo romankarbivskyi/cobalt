@@ -12,7 +12,7 @@ const FeatureCard = ({ className, title, subtitle, img }: FeatureCardProps) => {
     <div
       className={cn(
         className,
-        "bg-card border-outline flex h-[480px] flex-col justify-between rounded-2xl border",
+        "bg-card border-outline hover:border-accent flex h-[480px] flex-col justify-between rounded-2xl border transition-all duration-300 hover:scale-105",
       )}
     >
       <img
