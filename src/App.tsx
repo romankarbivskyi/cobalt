@@ -11,36 +11,41 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
+import { SplitText } from "gsap/SplitText";
+import { useRef } from "react";
 
-gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother);
+gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
 const App = () => {
+  const mainRef = useRef(null);
+
   useGSAP(() => {
     ScrollSmoother.create({
-      wrapper: "#smooth-wrapper",
-      content: "#smooth-content",
+      content: mainRef.current,
       smooth: 1.5,
       effects: true,
       smoothTouch: 0.1,
       normalizeScroll: true,
     });
   });
+
   return (
-    <div id="smooth-wrapper">
-      <div id="smooth-content">
-        <main className="bg-dark relative min-h-screen w-full overflow-hidden text-white">
-          <div className="absolute top-0 left-1/2 h-[80vw] w-[80vw] max-w-7xl -translate-1/2 rounded-full bg-radial from-[#5EB0EF]/50 via-[#5EB0EF]/10 to-transparent blur-3xl"></div>
-          <Header />
-          <Hero />
-          <About />
-          <Features />
-          <AiFeatures />
-          <CTABlock />
-          <Footer />
-          <div className="absolute bottom-0 left-[10vw] h-[90vw] w-[80vw] translate-y-1/2 bg-linear-to-r from-[#06B6D4] to-[#1E40AF] opacity-20 blur-[100px] will-change-transform sm:blur-[300px]"></div>
-        </main>
-      </div>
-    </div>
+    <main
+      className="bg-dark relative min-h-screen w-full text-white"
+      ref={mainRef}
+    >
+      <div className="absolute top-0 left-1/2 h-[300px] w-[300px] max-w-screen-xl -translate-1/2 rounded-full bg-radial from-[#5EB0EF]/50 via-[#5EB0EF]/10 to-transparent blur-3xl sm:h-[400px] sm:w-[400px] md:h-[600px] md:w-[600px] lg:h-[800px] lg:w-[800px] xl:h-[1200px] xl:w-[1000px]"></div>
+
+      <Header />
+      <Hero />
+      <About />
+      <Features />
+      <AiFeatures />
+      <CTABlock />
+      <Footer />
+
+      <div className="absolute bottom-0 left-1/2 h-[200px] w-[80vw] max-w-screen-2xl -translate-x-1/2 translate-y-1/2 bg-gradient-to-r from-[#06B6D4]/20 to-[#1E40AF]/20 blur-[50px] will-change-transform sm:h-[300px] sm:blur-[75px] md:h-[400px] md:blur-[100px] lg:h-[500px] lg:blur-[150px] xl:h-[600px] xl:blur-[200px]"></div>
+    </main>
   );
 };
 
