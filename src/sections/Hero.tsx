@@ -41,7 +41,7 @@ const Hero = () => {
           className="absolute top-1/4 z-0 object-contain"
         />
       </div>
-      <div className="animated-wrapper my-10 !w-full !rounded-2xl !p-[0.5px] md:my-24">
+      <div className="animated-wrapper my-10 !w-full overflow-hidden !rounded-xl !p-[0.5px] md:my-24 md:!rounded-2xl">
         <img
           src="/images/hero-interface.png"
           alt="Program intergace"
