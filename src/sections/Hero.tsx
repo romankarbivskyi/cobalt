@@ -92,7 +92,7 @@ const Hero = () => {
       ease: "power3.out",
       scrollTrigger: {
         trigger: imageRef.current,
-        start: "top 80%",
+        start: "top 90%",
         toggleActions: "play none none none",
       },
     });
