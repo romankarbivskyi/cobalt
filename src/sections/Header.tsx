@@ -16,18 +16,18 @@ const Header = () => {
     tl.from(logoRef.current, {
       x: -50,
       opacity: 0,
-      duration: 0.5, // Reduced from 0.8
+      duration: 0.5,
       ease: "power2.out",
     }).from(
       [navRef.current, buttonRef.current],
       {
         x: 50,
         opacity: 0,
-        duration: 0.4, // Reduced from 0.6
+        duration: 0.4,
         ease: "power2.out",
-        stagger: 0.05, // Reduced from 0.1
+        stagger: 0.05,
       },
-      "-=0.3", // Reduced from "-=0.4"
+      "-=0.3",
     );
 
     ScrollTrigger.create({
@@ -41,8 +41,8 @@ const Header = () => {
           border: "1px solid rgba(255, 255, 255, 0.2)",
           boxShadow: "0 4px 20px rgba(255, 255, 255, 0.1)",
           marginTop: "5px",
-          marginLeft: "12px",
-          marginRight: "12px",
+          marginLeft: "5px",
+          marginRight: "5px",
           padding: "0",
           duration: 0.2,
           ease: "power2.out",
@@ -97,7 +97,7 @@ const Header = () => {
 
   return (
     <header
-      className="fixed top-0 right-0 left-0 z-50 transition-all duration-150" // Reduced from duration-300
+      className="fixed top-0 right-0 left-0 z-50 transition-all duration-150"
       ref={headerRef}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 md:px-8">
@@ -108,7 +108,7 @@ const Header = () => {
           ref={logoRef}
         />
 
-        <div className="flex items-center gap-4 sm:gap-6">
+        <div className="flex items-center gap-2 sm:gap-6">
           <nav ref={navRef}>
             <a
               href="#"
