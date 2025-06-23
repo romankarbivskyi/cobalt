@@ -102,7 +102,7 @@ const Header = () => {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 md:px-8">
         <img
-          src="/images/logo.png"
+          src="/cobalt/images/logo.png"
           alt="Logo"
           className="object-contain"
           ref={logoRef}

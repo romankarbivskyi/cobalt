@@ -8,31 +8,31 @@ const features = [
     title: "Insights at your fingertips",
     subtitle:
       "All your data and finances in one place to provide quick answers and make decisions instantly.",
-    img: "/images/features/feature1.png",
+    img: "/cobalt/images/features/feature1.png",
   },
   {
     title: "Manage in real time",
     subtitle:
       "Have full control of your business finances on the go using our iOS/Android mobile apps. Because, you know, it's 2023.",
-    img: "/images/features/feature2.png",
+    img: "/cobalt/images/features/feature2.png",
   },
   {
     title: "Important business alerts",
     subtitle:
       "Important business alerts. Choose the alerts you need and receive them via email, mobile or Slack. Review and take action in one click.",
-    img: "/images/features/feature3.png",
+    img: "/cobalt/images/features/feature3.png",
   },
   {
     title: "Connect all your apps",
     subtitle:
       "Bring your data with our built-in integrations for accounting, revenue tools and banking.",
-    img: "/images/features/feature4.png",
+    img: "/cobalt/images/features/feature4.png",
   },
   {
     title: "You're in control",
     subtitle:
       "Lightning fast. Shortcuts for everything. Command+K on Mac, Ctrl+K on Windows. Dark mode.",
-    img: "/images/features/feature5.png",
+    img: "/cobalt/images/features/feature5.png",
   },
 ];
 

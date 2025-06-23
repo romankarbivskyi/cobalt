@@ -8,13 +8,13 @@ const features = [
     title: "Smart forecasting",
     subtitle:
       "Harness the power of Cobalt's predictive analytics to map out the financial future of your business.",
-    img: "/images/features/ai-feature1.png",
+    img: "/cobalt/images/features/ai-feature1.png",
   },
   {
     title: "Chat with Genius",
     subtitle:
       "Just ask. With Genius by your side, navigating the financial maze becomes intuitive and effortless.",
-    img: "/images/features/ai-feature2.png",
+    img: "/cobalt/images/features/ai-feature2.png",
   },
 ];
 

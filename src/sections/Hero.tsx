@@ -148,7 +148,7 @@ const Hero = () => {
         </div>
 
         <img
-          src="/images/stars.png"
+          src="/cobalt/images/stars.png"
           alt="Stars"
           className="absolute top-1/4 z-0 object-contain"
           ref={starsRef}
@@ -160,7 +160,7 @@ const Hero = () => {
         ref={imageRef}
       >
         <img
-          src="/images/hero-interface.png"
+          src="/cobalt/images/hero-interface.png"
           alt="Program interface"
           className="object-contain"
         />

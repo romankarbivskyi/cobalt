@@ -16,17 +16,17 @@ const Footer = () => {
         <ul className="flex items-center gap-7.5">
           <li>
             <a href="#">
-              <img src="/icons/x.svg" alt="X" />
+              <img src="/cobalt/icons/x.svg" alt="X" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/icons/linked-in.svg" alt="LinkedIn" />
+              <img src="/cobalt/icons/linked-in.svg" alt="LinkedIn" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/icons/facebook.svg" alt="Facebook" />
+              <img src="/cobalt/icons/facebook.svg" alt="Facebook" />
             </a>
           </li>
         </ul>
