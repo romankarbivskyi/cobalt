@@ -14,4 +14,5 @@ export default defineConfig({
   server: {
     allowedHosts: true,
   },
+  base: "https://romankarbivskyi.github.io/cobalt/",
 });
