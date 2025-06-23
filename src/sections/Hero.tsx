@@ -99,7 +99,7 @@ const Hero = () => {
   });
 
   return (
-    <section className="mx-auto flex max-w-7xl flex-col items-center justify-center px-4 pt-5 sm:px-6 sm:pt-10 md:px-8 md:pt-24">
+    <section className="mx-auto flex max-w-7xl flex-col items-center justify-center px-4 pt-15 sm:px-6 sm:pt-20 md:px-8 md:pt-25">
       <div className="relative z-10 flex flex-col items-center justify-center gap-10">
         <div className="flex flex-col items-center gap-10">
           <div className="z-10 flex max-w-3xl flex-col items-center gap-6 text-center">
